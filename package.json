@@ -1,0 +1,27 @@
+{
+  "name": "api",
+  "version": "0.0.1",
+  "description": "This is the backengine of my PJ (Projeto integrador) made for  IFSP.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/almokhan/PJBackengine.git"
+  },
+  "author": "almokhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/almokhan/PJBackengine/issues"
+  },
+  "homepage": "https://github.com/almokhan/PJBackengine#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
